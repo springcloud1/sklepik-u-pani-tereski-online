@@ -3,4 +3,5 @@ spring:
     name: discovery
   cloud:
     config:
+      label: master
       uri: http://localhost:8888
