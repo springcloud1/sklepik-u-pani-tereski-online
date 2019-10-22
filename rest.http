@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/v1/payments/payments
+Content-Type: application/json
+
+{
+ "amount": 100,
+ "name": "Adam",
+ "surname": "Sandler",
+ "pesel": "85858569874"
+}
+
+###
+
+GET http://localhost:8080/api/v1/payments/payments
+Content-Type: application/json
+
+###

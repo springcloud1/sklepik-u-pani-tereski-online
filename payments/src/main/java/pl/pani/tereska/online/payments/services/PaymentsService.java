@@ -1,12 +1,16 @@
 package pl.pani.tereska.online.payments.services;
 
 import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.stereotype.Service;
 import pl.pani.tereska.online.payments.model.Payment;
 import pl.pani.tereska.online.payments.model.ResultPage;
 import pl.pani.tereska.online.payments.repository.PaymentsRepository;
 
+@RequiredArgsConstructor
+@Service
 public class PaymentsService {
 
     @NonNull

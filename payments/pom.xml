@@ -5,14 +5,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.0.RELEASE</version>
+        <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.pani.tereska.online</groupId>
     <artifactId>payments</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>payments</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
@@ -104,13 +102,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
-
 </project>
