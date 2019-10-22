@@ -35,7 +35,7 @@ public class PaymentController {
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public PageDto<PaymentDto> getUsers(
+    public PageDto<PaymentDto> getPayments(
             @RequestParam(required = false, defaultValue = "0", name = "pageNumber") int pageNumber,
             @RequestParam(required = false, defaultValue = "10", name = "pageSize") int pageSize) {
         ResultPage<Payment> resultPage = paymentsService.getPayments(pageNumber, pageSize);
